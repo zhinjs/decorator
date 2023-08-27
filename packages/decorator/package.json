@@ -4,7 +4,8 @@
   "description": "Another development style of Zhin robots, using TypeScript decorators",
   "main": "lib/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "tsc"
   },
   "repository": {
     "type": "git",
