@@ -1,5 +1,5 @@
 {
-  "name": "@zhinjs/decorator",
+  "name": "@zhinjs/decorator-main-packages",
   "version": "1.0.0",
   "description": "Zhin, a chat bot framework for Node.js developers, compatible with oicq/icqq",
   "private": true,
