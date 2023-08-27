@@ -2,6 +2,7 @@
   "name": "@zhinjs/decorator",
   "version": "1.0.0",
   "description": "Zhin, a chat bot framework for Node.js developers, compatible with oicq/icqq",
+  "private": true,
   "scripts": {},
   "keywords": [
     "ts",
@@ -16,5 +17,6 @@
     "robot"
   ],
   "author": "Zero <gczgroup@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "^pnpm@8.5.1"
 }
