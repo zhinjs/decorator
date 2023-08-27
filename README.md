@@ -27,6 +27,10 @@ pnpm install @zhinjs/decorator
 
 ## 使用
 
+熟悉Spring/Nest/Midway等的的开发者应该会很熟悉。
+
+您可以将`@Plugin`看成是`@Controller`。
+
 ### 撰写一个插件
 
 ```typescript
@@ -95,3 +99,30 @@ export default class Repeater {
   }
 }
 ```
+
+### 撰写一个服务
+
+服务的作用，是用来封装具体的业务逻辑的。
+
+服务可以嵌套注入服务，但是请避免产生循环注入的情况（即A注入B，B又注入A），要不然会错误的哦（
+
+```typescript
+import { Injectable } from "@zhinjs/decorator";
+
+// 标记这是一个服务
+// 按道理来说，这个@Injectable是可以和nestjs通用的哦～
+// 但是我暂时没有测试过，但是十有八九是通用的，因为nest是可插拔的
+@Injectable()
+export class RepeaterService {
+  // 写一个方法
+  getMessage(type: "pattern" | "middleware") {
+    if (type === "pattern") {
+      return "hello world! This is a Message Pattern's message!";
+    } else if (type === "middleware") {
+      return "hello world! This is a middleware message!";
+    }
+  }
+}
+```
+
+目前的内容大概就是这样了～欢迎大家提issue～
