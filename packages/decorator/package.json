@@ -34,8 +34,8 @@
   "dependencies": {
     "@types/koa__router": "^12.0.0",
     "@types/ws": "^8.5.5",
+    "chalk": "4",
     "icqq": "latest",
-    "log4js": "^6.6.1",
     "reflect-metadata": "^0.1.13",
     "zhin": "latest"
   },
