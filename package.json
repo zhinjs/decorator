@@ -6,6 +6,7 @@
   "scripts": {
     "build": "pnpm -F @zhinjs/decorator build",
     "dev": "pnpm -F @zhinjs/decorator-test start:zhin",
+    "publish": "pnpm -F @zhinjs/decorator publish --access public",
     "format": "prettier --write ./"
   },
   "keywords": [
