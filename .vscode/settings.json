@@ -1,4 +1,13 @@
 {
   "material-icon-theme.activeIconPack": "nest",
-  "material-icon-theme.hidesExplorerArrows": true
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.files.associations": {
+    "*.class.ts": "nest-module",
+    "*.error.ts": "nest-filter",
+    "*.typing.ts": "typescript-def"
+  },
+  "material-icon-theme.folders.associations": {
+    "injectable": "pipe",
+    "messagePattern": "controller"
+  }
 }
