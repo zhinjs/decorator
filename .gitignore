@@ -1,0 +1,6 @@
+node_modules
+dist
+lib
+data
+logs_error.log
+logs.log

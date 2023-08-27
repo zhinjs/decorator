@@ -1,0 +1,45 @@
+port: 8086
+adapters:
+  icqq:
+    bots:
+      - self_id: 298428054
+        platform: 3
+        master: 1203970284
+        data_dir: data
+self_url: localhost
+data_dir: data
+plugin_dir: plugins
+plugins:
+  watcher: .
+log_level: info
+services: {}
+delay:
+  prompt: 60000
+logConfig:
+  appenders:
+    console_out:
+      type: console
+    log_file:
+      type: file
+      maxLogSize: 10485760
+      filename: /Users/zero/Documents/@Zhin/Decorator/packages/test/logs.log
+      encoding: utf-8
+    _error_file:
+      type: file
+      maxLogSize: 10485760
+      filename: /Users/zero/Documents/@Zhin/Decorator/packages/test/logs_error.log
+      encoding: utf-8
+    error_file:
+      type: logLevelFilter
+      appender: _error_file
+      level: warn
+  categories:
+    default:
+      appenders:
+        - log_file
+        - error_file
+      level: info
+    '[zhin]':
+      appenders:
+        - console_out
+      level: info
