@@ -1,12 +1,10 @@
 # @zhinjs/decorator
 
-<a href="https://www.npmjs.com/package/@zhinjs/decorator">
-
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/%40zhinjs%2Fdecorator?logo=npm&label=Open%20in%20npm&labelColor=red)
-
-</a>
+<a href="https://github.com/@zhinjs/decorator">
 
 ![version](https://img.shields.io/github/package-json/v/zhinjs/decorator?filename=packages%2Fdecorator%2Fpackage.json)
+
+</a>
 
 一个全新的机器人开发范式：使用 Decorator 开发 QQ 机器人！
 
