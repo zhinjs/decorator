@@ -2,6 +2,10 @@
   "name": "@zhinjs/decorator",
   "version": "1.0.0",
   "description": "Another development style of Zhin robots, using TypeScript decorators",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/zhinjs/decorator"
@@ -9,7 +13,6 @@
   "bugs": {
     "url": "https://github.com/zhinjs/decorator/issues"
   },
-  "scripts": {},
   "keywords": [
     "zhin",
     "ts",
@@ -24,9 +27,17 @@
     "robot"
   ],
   "author": "Zero <gczgroup@qq.com>",
+  "files": [
+    "lib"
+  ],
   "license": "MIT",
   "dependencies": {
-    "zhin": "^2.3.24"
+    "@types/koa__router": "^12.0.0",
+    "@types/ws": "^8.5.5",
+    "icqq": "latest",
+    "log4js": "^6.6.1",
+    "reflect-metadata": "^0.1.13",
+    "zhin": "latest"
   },
   "devDependencies": {
     "@types/koa": "^2.13.8",

@@ -1,0 +1,6 @@
+node_modules
+dist
+lib
+logs_error.log
+logs.log
+data/**/*

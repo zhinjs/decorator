@@ -39,7 +39,7 @@ logConfig:
         - log_file
         - error_file
       level: info
-    '[zhin]':
+    "[zhin]":
       appenders:
         - console_out
       level: info

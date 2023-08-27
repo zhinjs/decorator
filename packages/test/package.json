@@ -6,6 +6,7 @@
   },
   "author": "Zero <gczgroup@qq.com>",
   "dependencies": {
+    "@zhinjs/decorator": "workspace:^",
     "zhin": "^2.3.24"
   },
   "devDependencies": {

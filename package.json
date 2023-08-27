@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Zhin, a chat bot framework for Node.js developers, compatible with oicq/icqq",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "build": "pnpm -F @zhinjs/decorator build",
+    "dev": "pnpm -F @zhinjs/decorator-test start:zhin",
+    "format": "prettier --write ./"
+  },
   "keywords": [
     "ts",
     "typescript",
@@ -18,5 +22,8 @@
   ],
   "author": "Zero <gczgroup@qq.com>",
   "license": "MIT",
-  "packageManager": "^pnpm@8.5.1"
+  "packageManager": "^pnpm@8.5.1",
+  "dependencies": {
+    "prettier": "^3.0.2"
+  }
 }
