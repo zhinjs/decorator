@@ -1,6 +1,6 @@
 # @zhinjs/decorator
 
-<a href="https://github.com/@zhinjs/decorator">
+<a href="https://github.com/zhinjs/decorator">
 
 ![version](https://img.shields.io/github/package-json/v/zhinjs/decorator?filename=packages%2Fdecorator%2Fpackage.json)
 
