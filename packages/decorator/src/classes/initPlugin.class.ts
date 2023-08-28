@@ -1,7 +1,7 @@
 /**
  * @Date 2023-08-27 16:11:27
  * @Author Zero 1203970284@qq.com
- * @LastEditTime 2023-08-27 17:13:19
+ * @LastEditTime 2023-08-28 11:03:42
  * @FilePath /Decorator/packages/decorator/src/classes/initPlugin.class.ts
  * @Copyright (c) 2023 by Zero, All Rights Reserved.
  */
@@ -81,7 +81,7 @@ export class InitPlugin {
         newCommand.sugar(item.sugar, item.config);
       });
 
-      newCommand.action(this.newed[item.propertyKey]);
+      newCommand.action((...args) => this.newed[item.propertyKey](...args));
     });
     return this;
   }
