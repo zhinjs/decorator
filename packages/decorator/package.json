@@ -1,6 +1,6 @@
 {
   "name": "@zhinjs/decorator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Another development style of Zhin robots, using TypeScript decorators",
   "main": "lib/index.js",
   "scripts": {
